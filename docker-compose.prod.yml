@@ -7,19 +7,6 @@ services:
     command: gunicorn fortune_project.wsgi -b 0.0.0.0:8000
     environment:
         - ENVIRONMENT=production
-        - SECRET_KEY=qibz-etoyzayw06+&gjaa8!yz3j7)4+!f7)r@phqprb9h($$wb-
-        - API_KEY=rjebIngV.iRu0QTpg5MZWxNLaP3eeosKi0zDDESWD
-        - API_SECRET_KEY=rjebIngV.iRu0QTpg5MZWxNLaP3eeosKi0zDDESWD
-        - DJANGO_DEBUG=False
-        - DATABASE_URL_NAME=postgres
-        - DATABASE_URL_USER=postgres
-        - DATABASE_URL_PASSWORD=postgres
-        - DATABASE_URL_HOST=db
-        - TEST_KEY=NVbjpYiB.afARtfqBPV1EAyTVcK9akZBIm8v3tXdm
-        - SECOND_KEY=3fidGG0P.nWaqzI4qS5KgPDeegTpK76JDxw12OeAq
-        - API_URL_FSS=/oct-api/v1/
-        - API_URL_CFSS=/bard-api/v1/
-        - SAMESITEAPI=dki3RITQ.A73V75NeqoUtOuKdrdSkAXaIdPhZkeEl
     volumes:
         - .:/code
     ports:
