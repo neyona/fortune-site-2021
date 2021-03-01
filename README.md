@@ -1,4 +1,2 @@
-# underwater-fortunes
-A private repository to go with the underwaterfortunes.com site
-
-More will be added as I go
+# underwaterfortunes
+A public repository to go with the underwaterfortunes.com site. This version has personal info removed.
