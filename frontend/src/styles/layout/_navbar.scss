@@ -1,0 +1,25 @@
+/* Navigation bar related CSS
+Boostrap Navbars are flex boxes. Float does not work. */
+.navbar {
+  background-color: $black-home;
+}
+a.navbar-brand {
+  color: $link-light-blue !important;
+  font-family: $courgette-font !important;
+  font-size: 1.3rem !important;
+}
+div.navbar-nav {
+  align-items: flex-end !important;
+}
+a.nav-link {
+  color: $link-light-blue !important;
+  font-family: $courgette-font !important;
+  font-size: 1.3rem !important;
+  align-items: flex-end !important;
+}
+button.navbar-toggler {
+  background-color: none;
+  border-color: $link-light-blue !important;
+  border-style: solid !important;
+  border-width: 1px;
+}

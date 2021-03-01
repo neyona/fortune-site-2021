@@ -1,0 +1,73 @@
+/* All Jumbotrons are here. There are a lot of jumbotrons
+ base measurements for jumbotrons */
+.jumbotron {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+    position: relative;
+    align-content: center;
+    color: $secondary-color;
+}
+/* Homepage */
+.jumbotron-homepage {
+    background-image: linear-gradient(30deg, $blue-home, $bright-dark-blue, $very-dark-blue, $black-home);
+}
+/* Following items go with the page where you get the actual fortune. */
+.jumbotron-auraOne {
+    background-image: linear-gradient(110deg, $background-hover-one, $medium-slate-blue-five, $pink-one);
+}
+.jumbotron-auraTwo {
+    background-image: linear-gradient(80deg, $gold-two, $seagreen-two);
+    color: $darkslategrey-three;
+}
+.jumbotron-auraThree {
+    background-image: linear-gradient(100deg, $jumbotron-mediumgreen, $darkslategrey-three, $medium-spring-green);
+}
+.jumbotron-auraFour {
+    background-image: linear-gradient(20deg, $cyan-four, $midnightblue-four);
+}
+.jumbotron-auraFive {
+    background-image: linear-gradient(140deg, $medium-slate-blue-five, $teal-five);
+}
+.jumbotron-auraSix {
+    background-image: linear-gradient(100deg, $black-home, $darkslategrey-three);
+}
+.jumbotron-auraSeven {
+    background-image: linear-gradient(100deg, $medium-violet-red-seven, $darkred-seven);
+}
+.jumbotron-auraEight {
+    background-image: linear-gradient(140deg, $skyblue-eight, $pink-one, $medium-slate-blue-five);
+    color: $darkred-seven;
+}
+.jumbotron-auraNine{
+    background-image: linear-gradient(260deg, $lime-green-nine, $forestgreen-nine, $darkslategrey-three);
+}
+.jumbotron-auraTen {
+    background-image: linear-gradient(50deg, $dodger-blue-ten, $medium-slate-blue-five);
+}
+.jumbotron-auraEleven {
+    background-image: linear-gradient(130deg, $indigo-eleven, $medium-slate-blue-five);
+}
+.jumbotron-auraTwelve {
+    background-image: linear-gradient(10deg, $black-home, $steelblue-twelve);
+}
+.jumbotron-auraThirteen {
+    background-image: linear-gradient(10deg, $dimgray-twelve, $orange-thirteen);
+}
+.jumbotron-default {
+    background-image: linear-gradient(50deg, $medium-slate-blue-five, $background-hover-three);
+}
+.jumbotron-page {
+    background-image: linear-gradient(180deg, $jumbotron-darkblue, $jumbotron-mediumgreen);
+}
+.jumbotron-page-alt {
+    background-image: linear-gradient(180deg, $jumbotron-one, $jumbotron-two, $jumbotron-three, $jumbotron-four);
+}
+.jumbotron-contact-confirm {
+    background-image: linear-gradient(180deg, $jumbotron-one, $jumbotron-two, $jumbotron-three, $jumbotron-four);
+    align-content: center;
+}
+.jumbotron-page-alt-contact {
+    background-image: linear-gradient(180deg, $jumbotron-four, $jumbotron-three, $jumbotron-two, $jumbotron-one);
+}

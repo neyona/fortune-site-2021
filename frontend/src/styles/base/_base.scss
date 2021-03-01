@@ -1,0 +1,112 @@
+/* The whole site within the body tags */
+body {
+  font: 1.4em $stylish-font;
+  line-height: 2rem;
+  color: $secondary-color;
+  background-color: $dark-dark-blue;
+  height: 100vh;
+  border: none;
+  margin: 0;
+  h1 {
+      font-family: $header-one-canterall;
+      font-size: 2rem;
+      font-weight: normal;
+  }
+  h2 {
+      font-family: $header-two-pompiere;
+      font-size: 2.2rem;
+      font-weight: italic;
+  }
+  h3 {
+      font-family: $header-three-canterall;
+      font-size: 1.6rem;
+      font-weight: italic;
+  }
+  // Image captions
+  .figure-caption-custom {
+      font-family: 'Optima';
+      text-align: center;
+      color: $secondary-color !important;
+      font-size: 1rem !important;
+  }
+  // This pertains to the fortune form, it is the size of the labels of the
+  // form inputs and headings.
+  .legend {
+      color: $secondary-color !important;
+      font-size: 19px;
+      font-family: $header-three-canterall !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+body.dyslexia {
+  font: 1.2em $open--dyslexic;
+  line-height: 2rem;
+  color: $secondary-color;
+  background-color: $dark-dark-blue;
+  height: 100vh;
+  border: none;
+  margin: 0;
+  h1 {
+    font: 1.8em $open--dyslexic;
+    font-weight: normal;
+  }
+  h2 {
+    font: 1.5em $open--dyslexic;
+    font-weight: normal;
+  }
+  h3 {
+    font: 1.4em $open--dyslexic;
+    font-weight: normal;
+    padding: .5rem;
+  }
+  // Image Captions
+  .figure-caption-custom {
+      font-family: $open--dyslexic;
+      text-align: center;
+      color: $secondary-color !important;
+      font-size: 1rem !important;
+  }
+  // This pertains to the fortune form, it is the size of the labels of the
+  // form inputs and headings.
+  .legend {
+      color: $secondary-color !important;
+      font-size: 19px;
+      font-family: $open--dyslexic !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+hr {
+  background-color: $secondary-color;
+}
+/* unvisited link */
+a:link {
+  color: $link-light-blue;
+  padding: 2px 2px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+/* visited link */
+a:visited {
+  color: $light-green;
+  background-color: $background-color-visited;
+}
+/* mouse over link */
+a:hover {
+  color: $medium-bluish-green;
+  background-image: linear-gradient(90deg, $background-hover-one, $background-hover-two, $background-hover-three);
+}
+/* selected link */
+a:active {
+  color: $active-link-color;
+}

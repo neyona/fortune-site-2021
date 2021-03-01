@@ -1,0 +1,109 @@
+/* Buttons and switches */
+
+/* The button for the first page form */
+.btn-og-circle {
+    background-image: linear-gradient(70deg, $deep-sky-blue, $medium-spring-green);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    transition-duration: 0.6s;
+    border: none;
+    box-shadow: -10px -10px 30px $slate-green,
+             9px 9px 18px $light-turquiose;
+}
+.btn-og-circle:hover {
+    background-image: linear-gradient(70deg, $deep-sky-blue 0%, $medium-spring-green 75%, $pale-green 100%);
+    color: #150B36;
+    transform: translateY(-3px);
+    box-shadow: -8px -8px 16px $slate-purple,
+             9px 9px 18px $pink-slight-purple;
+}
+.btn-og-circle:active {
+    background-image: linear-gradient(70deg, $cornflower-blue, $medium-spring-green, $deep-sky-blue);
+    transform: translateY(4px);
+    box-shadow: -8px -8px 16px $slate-blue,
+             9px 9px 18px $light-blue;
+}
+/* The button for submitting a contact message */
+.grow-button {
+    width: 400px;
+    height: 100px;
+    color: $secondary-color !important;
+    background-image: linear-gradient(45deg, $blue-color 0%, $pink-color 100%);
+    border: none;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.grow-button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    color: $secondary-color !important;
+    box-shadow: -6px -6px 10px $blue-color,
+      6px 6px 10px $pink-color;
+}
+
+/* The slider to change to Open Dyslexic */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $gray-for-toggle;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: $secondary-color;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: $lime-green-nine;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px $lime-green-nine;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

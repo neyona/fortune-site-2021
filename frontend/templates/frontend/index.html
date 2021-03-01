@@ -1,0 +1,37 @@
+<!-- fortune_docker/frontend/templates/frontend/index.html -->
+{% load manifest %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Get a funny somewhat aggressive fortune from the underwater fortune teller, who also happens to be a cuttlefish" />
+    <link rel="icon" type="image/x-icon" href="{% manifest 'favicons/favicon.ico' %}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{% manifest 'favicons/apple-touch-icon.png' %}"  />
+    <link rel="icon" type="image/png" sizes="32x32" href="{% manifest 'favicons/favicon-32x32.png' %}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{% manifest 'favicons/favicon-16x16.png' %}" />
+    <link rel="icon" type="image/png" sizes="192x192" href="{% manifest 'favicons/android-chrome-192x192.png' %}" />
+    <link rel="icon" type="image/png" sizes="512x512" href="{% manifest 'favicons/android-chrome-512x512.png' %}" />
+    <link rel="manifest" href="{% manifest 'favicons/site.webmanifest' %}" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <link rel="manifest" href="{% manifest 'webmanifest.json' %}" />
+    <meta name="theme-color" content="#450fae" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Underwater Fortune Teller</title>
+
+  </head>
+  <body>
+
+    <div id="root"><!-- React --></div>
+
+    {% manifest_match '*.js' '<script type="application/javascript" src="{match}"></script>' %}
+
+  </body>
+</html>

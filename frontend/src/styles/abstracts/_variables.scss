@@ -1,0 +1,110 @@
+// -----------------------------------------------------------------------------
+// This file contains application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+@import url(https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Courgette&family=Pompiere&family=Stylish&family=Tangerine:wght@700&display=swap);
+@import url(https://fontlibrary.org/face/opendyslexic);
+/* Font variables */
+$font-stack: 'Tisa', normal;
+/* can remove */
+$header-fonts-one: 'Tangerine', cursive;
+/* used for h2 and h3 */
+$header-one-canterall: 'Cantarell', sans-serif;
+$header-two-pompiere: 'Pompiere', cursive;
+$header-three-canterall: 'Cantarell', sans-serif;
+/* Used for navbar */
+$courgette-font: 'Courgette', cursive;
+$pompiere-font: 'Pompiere', cursive;
+$stylish-font: 'Stylish', sans-serif;
+/* Used for open dyslexic */
+$open--dyslexic: 'OpenDyslexicRegular', regular;
+
+/* Color Variables */
+
+/* Color used for the background of the site and for the background on the footer */
+$dark-dark-blue: #0D0E3A;
+/* secondary color is the lettering and hr color, it's very light blue
+and the slide color */
+$secondary-color: #ddecf2;
+/* This is used in the navbar for the lettering
+ and toggles. It is important. It is also for
+ unvisited links */
+$link-light-blue: #80ccff;
+/* A dark bluish light green used for visited links */
+$light-green: #A8EBBF;
+$background-color-visited: purple;
+/* Greenish blue used for the hovering link color */
+$medium-bluish-green: #51C9DB;
+/* Link hovering background */
+$background-hover-one: RebeccaPurple;
+$background-hover-two: green;
+$background-hover-three: DarkGreen;
+/* Nice bright green used for active links */
+$active-link-color: #c1ff6f;
+/* The colors used for the button for the
+first page form buttons */
+$deep-sky-blue: DeepSkyBlue;
+$medium-spring-green: MediumSpringGreen;
+$pale-green: palegreen;
+$cornflower-blue: Cornflowerblue;
+
+/* The colors used for the shadows for the
+button for the first page form */
+$slate-green: #4e6f6a;
+$light-turquiose: #90cfc4;
+$slate-purple: #846e90;
+$pink-slight-purple: #f4ccff;
+$slate-blue: #5575b0;
+$light-blue: #9dd9ff;
+
+/* Used in a button for the contact form */
+$blue-color: #00bcdd;
+$pink-color: #ff00ff;
+
+/* Used for the button on the contact form */
+$blue-color: #00bcdd;
+$pink-color: #ff00ff;
+
+/* Used for the toggle switch */
+$gray-for-toggle: #b3b3cc;
+$royal-blue: RoyalBlue;
+
+/* Form Radio Button Color Choices */
+$pink-one: pink;
+$gold-two: gold;
+
+/* MediumSpringGreen for three */
+$cyan-four: cyan;
+$medium-slate-blue-five: MediumSlateBlue;
+
+/* Six is just written out with the main text color */
+$medium-violet-red-seven: MediumVioletRed;
+$snow-eight: snow;
+$lime-green-nine: LimeGreen;
+$dodger-blue-ten: DodgerBlue;
+$indigo-eleven: Indigo;
+$dimgray-twelve: DimGray;
+$orange-thirteen: Orange;
+
+/* Colors for the jumbotron */
+$blue-home: blue;
+$bright-dark-blue: #010584;
+$very-dark-blue: #020440;
+$black-home: black;
+$seagreen-two: SeaGreen;
+$darkslategrey-three: DarkSlateGrey;
+$midnightblue-four: MidnightBlue;
+$teal-five: Teal;
+$darkred-seven: DarkRed;
+$red-eight: red;
+$skyblue-eight: SkyBlue;
+$forestgreen-nine: ForestGreen;
+$steelblue-twelve: SteelBlue;
+$jumbotron-darkblue: #042860;
+$jumbotron-mediumgreen: #055a60;
+
+/* A jumbotron alternative */
+$jumbotron-one: #051B93;
+$jumbotron-two: #360593;
+$jumbotron-three: #7D0593;
+$jumbotron-four: #930562;

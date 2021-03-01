@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /webmanifest.json
+Allow: /webaccess
+Allow: /about
+Allow: /merch
+Allow: /contact
+Allow: /robots.txt
+Allow: /

@@ -1,0 +1,16 @@
+
+/* The following mixin is to use -webkit- and not webkit as needed. */
+@mixin prefix-property($name, $value) {
+  -webkit-#{$name}: $value;
+          #{$name}: $value;
+}
+
+/* The following mixin works for naming animations */
+@mixin keyframes-animation($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
