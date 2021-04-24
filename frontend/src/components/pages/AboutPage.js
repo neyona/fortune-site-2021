@@ -1,4 +1,4 @@
-// fortune_docker/frontend/src/components/pages/AboutPage.js
+// frontend/src/components/pages/AboutPage.js
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
