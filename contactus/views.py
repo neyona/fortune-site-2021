@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework_api_key.models import APIKey
 from rest_framework_api_key.permissions import HasAPIKey
+from django.views.decorators.csrf import ensure_csrf_cookie
 
 from .models import Contact
 from .serializers import ContactSerializer
@@ -19,5 +20,6 @@ class ContactListCreate(generics.ListCreateAPIView):
     parser_classes = [JSONParser]
     permission_classes = ([HasAPIKey | permissions.IsAuthenticated])
 
+    @ensure_csrf_cookie
     def contact_list(request):
         return Response({"message": "Got some data!", "data": request.data})
