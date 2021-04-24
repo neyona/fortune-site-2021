@@ -1,1 +1,1 @@
-export const NAME_AURA = 'NAME_AURA';
+export const NAME_AURA = 'NAME_AURA'
