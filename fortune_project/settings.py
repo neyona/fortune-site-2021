@@ -182,24 +182,15 @@ CORS_ALLOW_HEADERS = [
 
 API_KEY_CUSTOM_HEADER = "HTTP_X_API_KEY"
 
-# CORS_ALLOW_CREDENTIALS = False
-
-# CORS_ALLOW_ALL_ORIGINS = False
-
-# CORS_ORIGIN_ALLOW_WHITELIST = (
-#     'https://fortunegiver.herokuapp.com',
-#     'https://fortune-docker.herokuapp.com',
-#     'https://underwaterfortunes.com',
-#     'http://localhost:3000',
-#     'http://localhost:8080',
-# )
-
 # This is used now instead of whitelist
 CORS_ALLOWED_ORIGINS = [
-    'https://fortunegiver.herokuapp.com',
-    'https://fortune-docker.herokuapp.com',
     'https://underwaterfortunes.herokuapp.com',
     'https://underwaterfortunes.com',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://underwaterfortunes.herokuapp.com/contact',
+    'https://underwaterfortunes.com/contact',
 ]
 
 # The following is for development not production.
