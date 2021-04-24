@@ -1,6 +1,6 @@
-// fortune_docker/frontend/src/components/pages/FortunePage.js
-import React from 'react';
-import FortuneJumbotron from '../fortune/FortuneJumbotron';
+// frontend/src/components/pages/FortunePage.js
+import React from 'react'
+import FortuneJumbotron from '../fortune/FortuneJumbotron'
 
 // This page is just a wrapper
 const FortunePage = () => {
@@ -8,7 +8,7 @@ const FortunePage = () => {
     <div className="content-wrap">
       <FortuneJumbotron />
     </div>
-  );
+  )
 }
 
-export default FortunePage;
+export default FortunePage
